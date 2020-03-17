@@ -7,6 +7,14 @@ main()
 	int option;
 	char restart;
 	
+	int age =25;
+	int price=255.25;
+	char grade='A';
+
+	printf("age = %d, price = %f , grade = %c",age,price,grade);
+
+	
+	
 	abdullah:
 	printf("Enter PKR: ");
 	scanf("%f",&pkr);
